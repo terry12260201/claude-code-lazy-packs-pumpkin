@@ -33,7 +33,8 @@
 
 > 配套資源：
 > - [`templates/CLAUDE-範本.md`](./templates/CLAUDE-範本.md) — 基礎 vault 班規
-> - [`templates/CLAUDE-範本-三層版.md`](./templates/CLAUDE-範本-三層版.md) — 三層結構版班規
+> - [`templates/CLAUDE-範本-三層版.md`](./templates/CLAUDE-範本-三層版.md) — 三層結構版（單一身份，例如老師）
+> - [`templates/CLAUDE-範本-身份分流版.md`](./templates/CLAUDE-範本-身份分流版.md) — **多身份分流版**（推薦給創業者／斜槓）
 > - [`templates/04-第二大腦/`](./templates/04-第二大腦/) — 六份模板（Clipping/創作/知識頁/週報/Web Clipper 指南/重整 Prompt）
 
 > 待補：更多懶人包陸續整理中。
