@@ -12,7 +12,6 @@ tags:
   - 第二大腦
   - iCloud
 author: 南瓜（陳南宏）
-based_on: https://github.com/mathruffian-dot/claude-code-lazy-packs (v0.5)
 ---
 
 # Claude Code 懶人包 #03：建立第二大腦（Obsidian × iCloud 版）
@@ -25,15 +24,15 @@ based_on: https://github.com/mathruffian-dot/claude-code-lazy-packs (v0.5)
 
 ---
 
-## 為什麼有這個版本？
+## 設計重點
 
-原作者 [@mathruffian-dot 的 v0.5 懶人包](https://github.com/mathruffian-dot/claude-code-lazy-packs/blob/master/03-%E5%BB%BA%E7%AB%8B%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%85%A6-Obsidian.md) 預設使用 Google Drive 同步，且 MCP 設定方式對於目前版本的 Claude Code 已不適用。本版本針對以下三點做修正：
+本懶人包針對以下三個情境做了實測迭代：
 
-| 差異點 | 原版（v0.5） | 本版（v1.0） |
-|--------|-------------|-------------|
-| 同步方案 | Google Drive 桌面版 | **iCloud Drive**（Mac + iPhone + Windows 三平台） |
-| MCP 註冊方式 | 手動寫 `~/.claude/settings.json`（**已不被 schema 接受**） | `claude mcp add -s user` 官方指令 |
-| 平台覆蓋 | Windows 為主，macOS 補充 | **Windows + Mac 平行對照**，雙平台實測 |
+| 面向 | 設計選擇 |
+|------|---------|
+| 同步方案 | **iCloud Drive**（Mac + iPhone + Windows 三平台一份檔案） |
+| MCP 註冊方式 | `claude mcp add -s user` 官方指令（user scope，全專案通用） |
+| 平台覆蓋 | **Windows + Mac 平行對照**，每個指令兩平台都寫好 |
 
 ---
 
@@ -405,7 +404,7 @@ claude mcp list
 | 方案 | Vault 路徑大致位置 | 適合 |
 |------|------------------|------|
 | **iCloud**（本懶人包） | `iCloud~md~obsidian/` 容器內 | Mac + iPhone + Windows 使用者 |
-| **Google Drive** | `G:\我的雲端硬碟\` 或 `~/Library/CloudStorage/GoogleDrive-*/` | 跨 Google 生態系（見原版 [v0.5 懶人包](https://github.com/mathruffian-dot/claude-code-lazy-packs)） |
+| **Google Drive** | `G:\我的雲端硬碟\` 或 `~/Library/CloudStorage/GoogleDrive-*/` | 跨 Google 生態系 |
 | **Obsidian Sync** | 任意位置，Obsidian 內設定（$4/月） | 不想依賴第三方雲端 |
 | **OneDrive / Dropbox** | 對應同步資料夾 | 已有訂閱者 |
 
@@ -423,14 +422,7 @@ claude mcp list
 
 ## 相關連結
 
-- [原作者 v0.5 懶人包](https://github.com/mathruffian-dot/claude-code-lazy-packs/blob/master/03-%E5%BB%BA%E7%AB%8B%E7%AC%AC%E4%BA%8C%E5%A4%A7%E8%85%A6-Obsidian.md)
 - [mcpvault GitHub](https://github.com/bitbonsai/mcpvault)
 - [Obsidian 官網](https://obsidian.md)
 - [iCloud for Windows 下載](https://support.apple.com/zh-tw/118279)
 - [Claude Code 文件](https://docs.claude.com/claude-code)
-
----
-
-## 致謝
-
-本懶人包以 [@mathruffian-dot](https://github.com/mathruffian-dot) 的 `claude-code-lazy-packs` 系列為藍本，修正並補強 iCloud 同步情境下的設定流程。原作者的教學影片與 repo 是台灣 Claude Code 學習者的重要資源，推薦先看過原版再參考本版。
