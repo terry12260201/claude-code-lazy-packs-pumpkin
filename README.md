@@ -29,6 +29,12 @@
 | 編號 | 名稱 | 版本 | 狀態 | 適用情境 |
 |------|------|------|------|---------|
 | 03 | [建立第二大腦 Obsidian × iCloud 版](./03-建立第二大腦-Obsidian-iCloud版.md) | v1.0 | ✅ Windows 實測通過 | iCloud 同步、Windows + Mac 雙裝置 |
+| 04 | [第二大腦設定指南（三層結構 + 自動知識重整）](./04-第二大腦設定指南-三層結構.md) | v1.0 | ✅ Windows 實測通過 | 接續 #03，把 vault 升級成會自動成長的 AI 第二大腦 |
+
+> 配套資源：
+> - [`templates/CLAUDE-範本.md`](./templates/CLAUDE-範本.md) — 基礎 vault 班規
+> - [`templates/CLAUDE-範本-三層版.md`](./templates/CLAUDE-範本-三層版.md) — 三層結構版班規
+> - [`templates/04-第二大腦/`](./templates/04-第二大腦/) — 六份模板（Clipping/創作/知識頁/週報/Web Clipper 指南/重整 Prompt）
 
 > 待補：更多懶人包陸續整理中。
 
