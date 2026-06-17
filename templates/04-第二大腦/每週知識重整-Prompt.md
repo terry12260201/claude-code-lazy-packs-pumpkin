@@ -28,7 +28,7 @@ schedule: 每週日 09:17
 用 Claude Code 的 `/schedule` 指令設定每週日 9:17 自動執行：
 
 ```
-/schedule weekly Sun 09:17 讀取 Pumpapa vault 的 Templates/每週知識重整-Prompt.md 並依照步驟執行
+/schedule weekly Sun 09:17 讀取 [vault 名稱] 的 Templates/每週知識重整-Prompt.md 並依照步驟執行
 ```
 
 ---

@@ -31,7 +31,7 @@ type: setup-guide
 3. **General** 分頁：
    - Language：**繁體中文（Traditional Chinese）**
 4. **Vaults** 分頁 → 點 **+ Add vault**：
-   - Name：`Pumpapa`
+   - Name：你的 vault 名稱（與 Obsidian 內看到的一致）
    - （保持其他預設）
 
 ---
@@ -42,7 +42,7 @@ type: setup-guide
 
 | 欄位 | 填入 |
 |------|------|
-| **Vault** | Pumpapa |
+| **Vault** | 你的 vault 名稱 |
 | **Note location** | `Clippings/Articles/` |
 | **Note name** | `{{title}}` |
 | **Properties (frontmatter)** | 見下方範本 |
@@ -99,7 +99,7 @@ status: 未消化
 | 欄位 | 填入 |
 |------|------|
 | **Template triggers** | URL contains `youtube.com/watch` |
-| **Vault** | Pumpapa |
+| **Vault** | 你的 vault 名稱 |
 | **Note location** | `Clippings/Videos/` |
 | **Note name** | `{{title}}` |
 
@@ -155,4 +155,4 @@ status: 未消化
 
 ---
 
-*南瓜實測整理 ・ 2026-06-17*
+*建立日期：2026-06-17*
